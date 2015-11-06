@@ -44,7 +44,6 @@ class ProjectsController < ApplicationController
 
     flash[:notice] = "Project has been deleted."
     redirect_to projects_path
-
   end
 
   private
